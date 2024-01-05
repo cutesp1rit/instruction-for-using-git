@@ -10,7 +10,8 @@
 Чтобы посмотреть историю коммитов: ```git log```  <br>
 ### 3. Привязка и синхронизация удаленного репозитория к локальному
 Для начала входим в папку с репозитрием, который хотим привязать <br>
-Вводим в git bash: ``` git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.git```  <br>
+Вводим в git bash: ```git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.git```  <br>
 **Важно, чтобы был выбран SSH, а не HTTPS** <br>
 Чтобы убедиться, что репозитори связаны: ```git remote -v```  <br>
 Для синхронизации используем команду: ```git push -u origin master```  (в дальнейшем будет достаточно get push) <br> 
+Получить сокращенный лог: ```git log --online```  <br>
